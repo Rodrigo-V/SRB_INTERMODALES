@@ -19,7 +19,23 @@ namespace SRB_Intermodal
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            timer1.Start();
             
+        }
+
+        private void toggleSwitch1_Toggled(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radLabel1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+           radLabel1.Text = DateTime.Now.ToLongTimeString();
         }
     }
 }
