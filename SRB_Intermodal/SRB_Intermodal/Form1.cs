@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SRB_Intermodal
 {
-    public partial class Form1 : Form
+    public partial class Registro1 : Form
     {
-        public Form1()
+        public Registro1()
         {
             InitializeComponent();
         }
@@ -20,12 +20,15 @@ namespace SRB_Intermodal
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start();
+            radLabel2.Text = DateTime.Now.ToShortDateString();
             
+
+
         }
 
         private void toggleSwitch1_Toggled(object sender, EventArgs e)
         {
-
+           
         }
 
         private void radLabel1_Click(object sender, EventArgs e)
